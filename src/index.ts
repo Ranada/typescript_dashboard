@@ -1,23 +1,6 @@
-class BinarySearchTree {
-    root: TreeNode;
+import { TreeNode, BinarySearchTree } from "./lib/BinarySearchTree";
 
-    constructor(root: TreeNode) {
-        this.root = root;
-    }
-}
-
-class TreeNode {
-    val: number;
-    left: null;
-    right: null;
-
-    constructor(val: number) {
-        this.val = val;
-        this.left = null;
-        this.right = null;
-    }
-}
-
+// Binary Search Tree
 let rootNode = new TreeNode(50);
 let tree = new BinarySearchTree(rootNode);
 
