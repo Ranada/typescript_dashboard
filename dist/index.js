@@ -1,9 +1,20 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const BinarySearchTree_1 = require("./lib/BinarySearchTree");
-// Binary Search Tree
-let rootNode = new BinarySearchTree_1.TreeNode(50);
-let tree = new BinarySearchTree_1.BinarySearchTree(rootNode);
-console.log("Binary Search Tree");
-console.log(rootNode);
+// console.log("\n----------------------------------------------------------------------------------------------------------------------");
+// // Binary Search Tree
+// let rootNode = new TreeNode(50);
+// let tree = new BinarySearchTree(rootNode);
+// console.log(rootNode);
+// console.log("\n----------------------------------------------------------------------------------------------------------------------");
+// Graph
+// let g = new Graph;
+// g.addVertex("Los Angeles");
+// g.addVertex("Seattle");
+// g.addVertex("San Francisco");
+// g.addEdge("Los Angeles", "San Francisco");
+// g.addEdge("Seattle", "Los Angeles");
+// g.removeEdge("Seattle", "Los Angeles");
+// g.removeVertex("Los Angeles");
+// console.log(g);
+// console.log("\n----------------------------------------------------------------------------------------------------------------------";
 //# sourceMappingURL=index.js.map
