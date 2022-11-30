@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Graph = void 0;
-class Graph {
+export class Graph {
     constructor() {
         this.adjacencyList = {};
     }
@@ -27,5 +24,4 @@ class Graph {
         delete this.adjacencyList[vertex];
     }
 }
-exports.Graph = Graph;
 //# sourceMappingURL=Graph.js.map
